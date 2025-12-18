@@ -1,0 +1,32 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  height: 60px;
+  background: #0f172a;
+  color: white;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.layout-body {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  width: 220px;
+  background: #020617;
+  color: white;
+  padding: 20px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
